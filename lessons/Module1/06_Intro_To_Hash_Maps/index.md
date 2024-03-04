@@ -1,0 +1,21 @@
+---
+assignment: 06_Intro_To_Hash_Maps
+dir: levels/Level3/Module1/src/_06_Intro_To_Hash_Maps
+lesson: 06_Intro_To_Hash_Maps
+level: Level3
+module: Module1
+oassignment: 06_Intro_To_Hash_Maps
+opath: levels/Level3/Module1/src/_06_Intro_To_Hash_Maps
+title: 06 Intro To Hash Maps
+---
+# 06 Intro To Hash Maps
+
+{{ forkrepo(fm_level, fm_module) }}
+
+{{ reporef(fm_level, fm_module) }}
+
+
+
+
+{{ javaref(fm_level, fm_module,fm_lesson,fm_assignment, fm_dir) }}
+

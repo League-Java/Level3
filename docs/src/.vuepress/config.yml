@@ -1,4 +1,4 @@
-base: /New_Curriculum_Template/
+base: /Level3/
 description: A Demo of the League Curriculum websites
 head:
 - - meta
@@ -18,7 +18,7 @@ plugins:
 - '@vuepress/plugin-back-to-top'
 - '@vuepress/plugin-medium-zoom'
 themeConfig:
-  displayAllHeaders: true
+  displayAllHeaders: false
   docsDir: ''
   editLinkText: ''
   editLinks: false
@@ -34,14 +34,91 @@ themeConfig:
   - path: /
     title: Introduction
   - children:
-    - path: /lessons/lesson1/assignment_a/
-      title: Assignment A
+    - path: /lessons/Module0/00_Intro_To_Arrays/
+      title: 00 Intro To Arrays
+    - path: /lessons/Module0/01_Simple_Array_Algorithms/
+      title: 01 Simple Array Algorithms
+    - path: /lessons/Module0/02_Firework_Display/
+      title: 02 Firework Display
+    - path: /lessons/Module0/03_Intro_to_2D_Arrays/
+      title: 03 Intro To 2D Arrays
+    - path: /lessons/Module0/04_Crazy_Digital_Painting/
+      title: 04 Crazy Digital Painting
+    - path: /lessons/Module0/05_Pixel_Art/
+      title: 05 Pixel Art
+    - path: /lessons/Module0/06_Conways_Game_of_Life/
+      title: 06 Conways Game Of Life
+    - path: /lessons/Module0/07_The_Wrong_Way_Cow/
+      title: 07 The Wrong Way Cow
     collapsable: false
-    title: Getting Started
+    title: Module0
   - children:
-    - path: /lessons/lesson2/assignment_b/
-      title: Assignment B
+    - path: /lessons/Module1/00_Intro_To_ArrayLists/
+      title: 00 Intro To Arraylists
+    - path: /lessons/Module1/01_MurderOfCrows/
+      title: 01 Murderofcrows
+    - path: /lessons/Module1/02_LongChipCompetition/
+      title: 02 Longchipcompetition
+    - path: /lessons/Module1/03_RemovingStuffFromArrayLists/
+      title: 03 Removingstufffromarraylists
+    - path: /lessons/Module1/04_Memory_Match/
+      title: 04 Memory Match
+    - path: /lessons/Module1/05_Retro_Sun/
+      title: 05 Retro Sun
+    - path: /lessons/Module1/06_Intro_To_Hash_Maps/
+      title: 06 Intro To Hash Maps
+    - path: /lessons/Module1/07_Meeting_Scheduler/
+      title: 07 Meeting Scheduler
+    - path: /lessons/Module1/08_California_Weather/
+      title: 08 California Weather
+    - path: /lessons/Module1/09_World_Clocks/
+      title: 09 World Clocks
     collapsable: false
-    path: /lessons/lesson2/
-    title: Lesson 2
+    title: Module1
+  - children:
+    - path: /lessons/Module2/00_Intro_to_Sorting_Algorithms/
+      title: 00 Intro To Sorting Algorithms
+    - path: /lessons/Module2/01_Sorting_Algorithms/
+      title: 01 Sorting Algorithms
+    - path: /lessons/Module2/02_Intro_To_Searching_Algorithms/
+      title: 02 Intro To Searching Algorithms
+    - path: /lessons/Module2/03_More_Algorithms/
+      title: 03 More Algorithms
+    - path: /lessons/Module2/04_JavaClassSearchAndSort/
+      title: 04 Javaclasssearchandsort
+    collapsable: false
+    title: Module2
+  - children:
+    - path: /lessons/Module3/00_Intro_To_String_Methods/
+      title: 00 Intro To String Methods
+    - path: /lessons/Module3/01_StringBuilder/
+      title: 01 Stringbuilder
+    - path: /lessons/Module3/02_The_Wave/
+      title: 02 The Wave
+    - path: /lessons/Module3/03_Intro_To_Regular_Expressions/
+      title: 03 Intro To Regular Expressions
+    collapsable: false
+    title: Module3
+  - children:
+    - path: /lessons/Module4/00_IntroToStacks/
+      title: 00 Introtostacks
+    - path: /lessons/Module4/01_TestMatchingBrackets/
+      title: 01 Testmatchingbrackets
+    - path: /lessons/Module4/02_IntroToQueues/
+      title: 02 Introtoqueues
+    - path: /lessons/Module4/03_Hangman/
+      title: 03 Hangman
+    - path: /lessons/Module4/04_Maze_Maker/
+      title: 04 Maze Maker
+    collapsable: false
+    title: Module4
+  - children:
+    - path: /lessons/Module5/00_Intro_To_Recursion/
+      title: 00 Intro To Recursion
+    - path: /lessons/Module5/01_StringTrimmer/
+      title: 01 Stringtrimmer
+    - path: /lessons/Module5/02_RecursionMath/
+      title: 02 Recursionmath
+    collapsable: false
+    title: Module5
 title: League Demo

@@ -3,22 +3,65 @@ description: A Demo of the League Curriculum websites
 title: League Demo
 tagline: Igniting Young Minds Through Programming
 pages:
-  - index.md
-  - about.md
+- index.md
+- about.md
 resources:
-  - flag.png
-  - word-logo.png
+- flag.png
+- word-logo.png
 sidebar:
-  - path: /
-    title: Introduction
+- path: /
+  title: Introduction
 lessons:
-  
-  lesson1:
-    title: Getting Started # neet a title b/c there is no index.md
+  Module0:
+    title: Module0
     assignments:
-     - lesson1/assignment_a.md
-  lesson2:
-    # title: No Title # Don't need title, has index.md
+    - Module0/00_Intro_To_Arrays
+    - Module0/01_Simple_Array_Algorithms
+    - Module0/02_Firework_Display
+    - Module0/03_Intro_to_2D_Arrays
+    - Module0/04_Crazy_Digital_Painting
+    - Module0/05_Pixel_Art
+    - Module0/06_Conways_Game_of_Life
+    - Module0/07_The_Wrong_Way_Cow
+  Module1:
+    title: Module1
     assignments:
-    - lesson2/assignment_b.md
-
+    - Module1/00_Intro_To_ArrayLists
+    - Module1/01_MurderOfCrows
+    - Module1/02_LongChipCompetition
+    - Module1/03_RemovingStuffFromArrayLists
+    - Module1/04_Memory_Match
+    - Module1/05_Retro_Sun
+    - Module1/06_Intro_To_Hash_Maps
+    - Module1/07_Meeting_Scheduler
+    - Module1/08_California_Weather
+    - Module1/09_World_Clocks
+  Module2:
+    title: Module2
+    assignments:
+    - Module2/00_Intro_to_Sorting_Algorithms
+    - Module2/01_Sorting_Algorithms
+    - Module2/02_Intro_To_Searching_Algorithms
+    - Module2/03_More_Algorithms
+    - Module2/04_JavaClassSearchAndSort
+  Module3:
+    title: Module3
+    assignments:
+    - Module3/00_Intro_To_String_Methods
+    - Module3/01_StringBuilder
+    - Module3/02_The_Wave
+    - Module3/03_Intro_To_Regular_Expressions
+  Module4:
+    title: Module4
+    assignments:
+    - Module4/00_IntroToStacks
+    - Module4/01_TestMatchingBrackets
+    - Module4/02_IntroToQueues
+    - Module4/03_Hangman
+    - Module4/04_Maze_Maker
+  Module5:
+    title: Module5
+    assignments:
+    - Module5/00_Intro_To_Recursion
+    - Module5/01_StringTrimmer
+    - Module5/02_RecursionMath
