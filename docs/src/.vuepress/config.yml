@@ -1,5 +1,5 @@
 base: /Level3/
-description: A Demo of the League Curriculum websites
+description: Documentation and links for League Java Level 3
 head:
 - - meta
   - content: '#F37121'
@@ -121,4 +121,4 @@ themeConfig:
       title: 02 Recursionmath
     collapsable: false
     title: Module5
-title: League Demo
+title: Java Level 3
